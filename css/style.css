@@ -7,10 +7,10 @@
   /* font-family: 'Epilogue', sans-serif; */
   font-family: "Sora", sans-serif;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-body{
+body {
   background-color: #f3f9ff;
 }
 
@@ -81,118 +81,126 @@ body{
 
 .main {
   margin: 80px 50px;
-  padding: 50px 0px ;
+  padding: 50px 0px;
 }
-.head-1{
-    font-size: 4.5rem;
-    margin: 5px 0px;
-    color: rgb(48, 48, 48);
-    
+.head-1 {
+  font-size: 4.5rem;
+  margin: 5px 0px;
+  color: rgb(48, 48, 48);
 }
-.head-2{
-    font-size: 2rem;
-    margin: 5px 0px;
-    color: #007bff;
+.head-2 {
+  font-size: 2rem;
+  margin: 5px 0px;
+  color: #007bff;
+}
+.head-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 0px;
+  color: #007bff;
+}
+.head-4 hr {
+  width: 367px;
+}
 
-}
-.head-4{
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-    margin: 5px 0px;
-    color: #007bff;
-
-}
-.head-4 hr{
-    width: 367px;
- }
- 
 /* Left section */
 
-.left{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
-    margin: 35px;
-    
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 35px;
 }
 
-.left div{
-    margin: 15px 10px;
+.left div {
+  margin: 15px 10px;
 }
-.left div i{
-   font-size: 25px;
-   color: rgb(80, 80, 80);
-   transition: all 0.2s ease-in-out;
-    
+.left div i {
+  font-size: 25px;
+  color: rgb(80, 80, 80);
+  transition: all 0.2s ease-in-out;
 }
-.left div i:hover{
-    color: #007bff ;
+.left div i:hover {
+  color: #007bff;
 }
 /* About me  */
-.About{
-    margin: 0px 120px 80px 120px;
-    
+.About {
+  margin: 0px 120px 80px 120px;
 }
-.abthead{
-    display: flex;
-    flex-direction: row;
-    align-items: center;    
-    color: rgb(48, 48, 48);
-    margin: 30px 0px;
+.abthead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(48, 48, 48);
+  margin: 30px 0px;
 }
 .abthead hr {
   width: 200px;
 }
 
-.myimage ,.myimage img{
+.myimage,
+.myimage img {
   width: 350px;
   height: 360px;
   border-radius: 50px;
-} 
-.abtme{
+}
+.abtme {
   display: flex;
   justify-content: center;
   margin: 20px 0px;
- 
 }
 .content {
   padding-right: 100px;
   margin-right: 100px;
 }
- .paras{
+.paras {
   color: rgb(80, 80, 80);
-
 }
-.btn-1{
+.btn-1 {
   border: 1px solid #268fff;
   border-radius: 12px;
-  
+
   padding: 20px;
   background-color: #268fff;
   margin: 30px 0px 10px 0px;
   transition: all 0.1s ease-in-out;
 }
-.btn-1 a, .btn-1 a i{
+.btn-1 a,
+.btn-1 a i {
   text-decoration: none;
   font-size: 13px;
   color: white;
 }
-.btn-1:hover{
+.btn-1:hover {
   background-color: #007bff;
   border: 1px solid white;
-  
 }
 /* Skills */
-.Skills{
+.Skills {
   margin: 0px 120px 80px 120px;
-  
 }
-.sklhead{
+.skl-up,
+.skl-dn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 5px 0px;
+}
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  width: 20vw;
+}
+.sklhead {
   display: flex;
   flex-direction: row;
-  align-items: center;    
+  align-items: center;
   color: rgb(48, 48, 48);
   margin: 30px 0px;
 }
@@ -200,112 +208,102 @@ body{
   width: 300px;
 }
 
-.skl-div div{
-  height: 10px;
- 
-  background-color: #007bff;
-  border-radius: 10px;
-  margin: 10px 0px;
-
-}
 .skl-div {
   margin: 10px 0px;
 }
 
-.skl-div  p{
-  margin: 30px 0px;
+.skl-div p {
+  margin: 5px;
   display: flex;
   align-items: center;
   color: rgb(75, 75, 75);
 }
 .skl-div p i {
   color: #007bff;
-  font-size: 33px;
+  font-size: 3rem;
 }
-.skl-div  p img{
-  height: 30px;
+.skl-div p img {
+  height: 3rem;
   color: #007bff;
 }
 
 /* Projects */
 
-.Projects,.Contact{
+.Projects,
+.Contact {
   margin: 0px 120px 80px 120px;
- 
- 
 }
-.proj{
+.proj {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.projs{
+.projs {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0px 25px;
 }
-.img-pr, .img-pr img{
+.img-pr,
+.img-pr img {
   height: 140px;
 }
-.pr-txt{
+.pr-txt {
   margin: 20px;
 }
-.pr-txt p{
- color: rgb(75, 75, 75);
+.pr-txt p {
+  color: rgb(75, 75, 75);
 }
 
-
-.btn-2{
+.btn-2 {
   background-color: #268fff;
   border-radius: 12px;
   padding: 20px;
   margin: 20px;
   border: 1px solid #268fff;
   transition: all 0.1s ease-in-out;
-
 }
-.btn-2 a, .btn-2 a i{
+.btn-2 a,
+.btn-2 a i {
   text-decoration: none;
   font-size: 13px;
   color: white;
-  
 }
-.btn-2:hover{
+.btn-2:hover {
   background-color: #007bff;
   border: 1px solid white;
 }
 /* Contact Form */
-.cont-fm{
+.cont-fm {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 /* Left Part */
-.con-left div{
-      margin: 30px 0px;
+.con-left div {
+  margin: 30px 0px;
 }
-.con-left div a{
-     color: #268fff;
-     transition: all 0.1s ease-in-out;
+.con-left div a {
+  color: #268fff;
+  transition: all 0.1s ease-in-out;
 }
-.con-left div a:hover{
-     color: #007bff;
+.con-left div a:hover {
+  color: #007bff;
 }
-.con-left div a i{
+.con-left div a i {
   font-size: 50px;
 }
 /* Right Part */
 
-
-.con-right form{
+.con-right form {
   display: flex;
   flex-direction: column;
-  
 }
-#text,#email,#subject,#textarea{
+#text,
+#email,
+#subject,
+#textarea {
   width: 400px;
   margin: 10px;
   border: none;
@@ -314,53 +312,50 @@ body{
   background-color: #d5e9ff;
   border-radius: 5px;
 }
-#submit{
+#submit {
   width: 150px;
   margin: 10px;
-  padding: 15px ;
+  padding: 15px;
   border: 1px solid #268fff;
   background-color: #268fff;
   border-radius: 10px;
   color: white;
   transition: all 0.1s ease-in-out;
-
 }
-#submit:hover{
+#submit:hover {
   background-color: #007bff;
   border: 1px solid white;
 }
 /* Footer section */
-footer{
+footer {
   background-color: #007bff;
   padding: 5px;
 }
-.foot{
+.foot {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
-.icons{
+.icons {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.icons div a i{
+.icons div a i {
   color: white;
   font-size: 1.2rem;
   margin: 5px;
 }
-.icons div a i:hover{
+.icons div a i:hover {
   color: rgb(226, 226, 226);
-
 }
-.copy p{
+.copy p {
   font-size: 0.7rem;
-  color:rgb(255, 255, 255) ;
+  color: rgb(255, 255, 255);
 }
-.copy{
+.copy {
   display: flex;
   flex-direction: row;
   justify-content: center;
