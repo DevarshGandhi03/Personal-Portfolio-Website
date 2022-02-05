@@ -256,9 +256,15 @@
     color: #007bff;
     font-size: 2.7rem;
   }
+  .skl-div p {
+    font-size: 0.9rem;
+  }
   .skl-up,
   .skl-dn {
     margin: 0px;
+  }
+  .skill {
+    width: 25vw;
   }
 }
 @media only screen and (max-width: 550px) {
